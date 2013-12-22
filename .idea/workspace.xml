@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc19260e-d94c-4fb3-9955-0fd8748aff46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/widget/_userInfo.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/profile/home.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/profile/index.gsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid27052.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid27065.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid27078.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5383.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid6705.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid7231.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid7358.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid8809.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid8862.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid8950.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid8970.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/myfrontend/AuthController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/myfrontend/AuthController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/auth/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/auth/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/auth/login.gsp" afterPath="$PROJECT_DIR$/grails-app/views/auth/login.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/auth/registration.gsp" afterPath="$PROJECT_DIR$/grails-app/views/auth/registration.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -23,9 +22,9 @@
     <ignored path="myFrontend.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387741322276" ignored="false" />
+    <file path="/Dummy.txt" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387749579940" ignored="false" />
     <file path="/a.dummy" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387741612170" ignored="false" />
-    <file path="/AuthController.groovy" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387731556640" ignored="false" />
+    <file path="/AuthController.groovy" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387751211411" ignored="false" />
     <file path="/registration.gsp" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387746853191" ignored="false" />
     <file path="/messages.properties" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387746494184" ignored="false" />
     <file path="/index.gsp" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387725642439" ignored="false" />
@@ -33,7 +32,7 @@
     <file path="$PROJECT_DIR$/../_pinbank/grails_wide/grails-app/views/auth/index.gsp" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387670828738" ignored="false" />
     <file path="$USER_HOME$/.IntelliJIdea12/config/options/debugger.frameview.xml" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387673016547" ignored="false" />
     <file path="/Dummy.groovy" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387673029504" ignored="false" />
-    <file path="/login.gsp" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387731521426" ignored="false" />
+    <file path="/login.gsp" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387750352483" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/myfrontend/ProfileControllerTests.groovy" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387718813525" ignored="false" />
     <file path="/ProfileController.groovy" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387718844813" ignored="false" />
     <file path="/_userInfo.gsp" changelist="fc19260e-d94c-4fb3-9955-0fd8748aff46" time="1387719155280" ignored="false" />
@@ -55,7 +54,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -92,6 +90,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -104,16 +103,16 @@
       <file leaf-file-name="login.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="288" selection-end="288" vertical-scroll-proportion="-4.4680853">
+            <state line="44" column="26" selection-start="1405" selection-end="1405" vertical-scroll-proportion="-1.468085">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="registration.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/auth/registration.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="13" selection-start="3193" selection-end="3193" vertical-scroll-proportion="0.7902098">
+            <state line="56" column="9" selection-start="1305" selection-end="2072" vertical-scroll-proportion="-3.5106382">
               <folding />
             </state>
           </provider>
@@ -130,29 +129,20 @@
       </file>
       <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="29" selection-start="3803" selection-end="3803" vertical-scroll-proportion="-6.04">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="ResourceBundle">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="29" selection-start="3803" selection-end="3803" vertical-scroll-proportion="-10.52">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="52" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-31.25">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="569" selection-end="569" vertical-scroll-proportion="-0.625">
+            <state line="10" column="19" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,7 +151,7 @@
       <file leaf-file-name="home.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/profile/home.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="255" selection-end="255" vertical-scroll-proportion="-4.787234">
+            <state line="15" column="20" selection-start="255" selection-end="255" vertical-scroll-proportion="-3.7021277">
               <folding />
             </state>
           </provider>
@@ -170,7 +160,16 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/profile/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/myfrontend/AuthController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="72" selection-start="284" selection-end="284" vertical-scroll-proportion="0.15841584">
               <folding />
             </state>
           </provider>
@@ -179,7 +178,7 @@
       <file leaf-file-name="authLayout.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/authLayout.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,7 +187,7 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/auth/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="87" selection-start="336" selection-end="336" vertical-scroll-proportion="-3.4893618">
+            <state line="14" column="87" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,14 +215,14 @@
         <option value="$PROJECT_DIR$/grails-app/views/widget/_userInfo.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/auth/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/services/myfrontend/AuthService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/auth/login.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/myfrontend/AuthController.groovy" />
         <option value="$PROJECT_DIR$/web-app/css/common.css" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/views/auth/registration.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/auth/login.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/myfrontend/AuthController.groovy" />
       </list>
     </option>
   </component>
@@ -275,11 +274,17 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Grails.Grails:myFrontend">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -290,18 +295,25 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -330,19 +342,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -441,11 +440,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34717607" sideWeight="0.88560605" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38245034" sideWeight="0.88560605" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34717607" sideWeight="0.11439394" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38245034" sideWeight="0.11439394" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21742424" sideWeight="0.6528239" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21742424" sideWeight="0.61754966" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -533,19 +532,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/myfrontend/ProfileController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_ru.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
@@ -564,16 +561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/myfrontend/AuthController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="547" selection-end="547" vertical-scroll-proportion="-10.434783">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
@@ -583,23 +571,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="288" selection-end="288" vertical-scroll-proportion="-4.4680853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="569" selection-end="569" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/profile/home.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="255" selection-end="255" vertical-scroll-proportion="-4.787234">
+        <state line="10" column="19" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -620,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/auth/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="87" selection-start="336" selection-end="336" vertical-scroll-proportion="-3.4893618">
+        <state line="14" column="87" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -632,19 +606,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/profile/home.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="29" selection-start="3803" selection-end="3803" vertical-scroll-proportion="-10.52">
+        <state line="15" column="20" selection-start="255" selection-end="255" vertical-scroll-proportion="-3.7021277">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="29" selection-start="3803" selection-end="3803" vertical-scroll-proportion="-6.04">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/auth/registration.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="13" selection-start="3193" selection-end="3193" vertical-scroll-proportion="0.7902098">
+        <state line="56" column="9" selection-start="1305" selection-end="2072" vertical-scroll-proportion="-3.5106382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="26" selection-start="1405" selection-end="1405" vertical-scroll-proportion="-1.468085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/myfrontend/AuthController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="72" selection-start="284" selection-end="284" vertical-scroll-proportion="0.15841584">
           <folding />
         </state>
       </provider>

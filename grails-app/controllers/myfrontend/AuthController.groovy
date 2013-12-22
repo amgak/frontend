@@ -16,18 +16,17 @@ class AuthController {
     def login(){
     }
 
-    def dologin(LoginCommand lC){
-        if (authService.checkLogin(lC.login, lC.password)){
+    def doLogin(LoginCommand lC){
+        if(lC.validate() && authService.checkLogin(lC.login, lC.password)){
             render "OK"
         } else {
-            render "NOT OK"
+            render([errors: lC.errors.allErrors ] as JSON)
         }
-
     }
 
     def register(RegistrationCommand rC) {
         if(rC.validate()){
-            render "valid"
+            render "OK"
         } else {
             render([errors: rC.errors.allErrors ] as JSON)
         }

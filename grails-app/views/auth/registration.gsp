@@ -18,7 +18,6 @@
 
 <script>
     $(document).on('click', '.buttonReg', function (e) {
-        alert('hello');
         $.ajax({
             method: "POST",
             data: {
@@ -35,9 +34,7 @@
                 for (var i = 0; i < res['errors'].length; i++) {
                     fieldError(res['errors'][i].field, "${message(code: 'incorrect.data')}");
                 }
-
             }
-
         });
     });
 
