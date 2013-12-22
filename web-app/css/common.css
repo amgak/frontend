@@ -1,0 +1,27 @@
+.fieldError {
+    position: absolute;
+    z-index: 50;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 220px;
+    padding: 5px 20px 7px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #EB1A22;
+}
+.fieldError:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #EB1A22;
+}

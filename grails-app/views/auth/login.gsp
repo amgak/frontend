@@ -12,7 +12,7 @@
   <title></title>
 </head>
 <body>
-<g:form controller="auth" action="login">
+<g:form controller="auth" action="dologin">
     ${message( code: 'login')}<br/>
     <g:textField name="login" placeholder="${message( code: 'login.placeholder')}"/><br/>
 
