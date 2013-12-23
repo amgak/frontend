@@ -10,31 +10,30 @@
 <html>
 <head>
     <title></title>
-    <g:javascript library='jquery' />
+    <g:javascript library='jquery'/>
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'common.css')}">
     <r:layoutResources/>
     <script>
-    $(document).on('click', '.signin', function (e) {
-        $.ajax({
-            method: "POST",
-            data: {
-            },
-            url: "${createLink(controller: 'auth', action: "login")}",
-            success: function (res) {
-                for (var i = 0; i < res['errors'].length; i++) {
-                    fieldError(res['errors'][i].field, "${message(code: 'incorrect.data')}");
+        $(document).on('click', '.signin', function (e) {
+            $.ajax({
+                method: "POST",
+                data: {
+                },
+                url: "${createLink(controller: 'auth', action: "login")}",
+                success: function (res) {
+                    for (var i = 0; i < res['errors'].length; i++) {
+                        fieldError(res['errors'][i].field, "${message(code: 'incorrect.data')}");
+                    }
                 }
-            }
+            });
         });
-    });
 
-</script>
+    </script>
 </head>
+
 <body>
 <g:render template="templates/header"/>
 <div class="content">
-
-
 
 </div>
 </body>

@@ -1,4 +1,3 @@
-
 <script>
     $(document).on('click', '.buttonReg', function (e) {
         $.ajax({
@@ -21,73 +20,72 @@
         });
     });
 
-    function fieldError(field_name, desc){
-        var $this = $('.field[name='+ field_name +']').length > 0 ? $('.field[name='+ field_name +']') : $('input[name='+ field_name +']');
+    function fieldError(field_name, desc) {
+        var $this = $('.field[name=' + field_name + ']').length > 0 ? $('.field[name=' + field_name + ']') : $('input[name=' + field_name + ']');
         if ($this.length < 1 || $this.next().is('.fieldError')) {
             return;
         } else {
             var $container = $this.closest('.active');
-            var	position_left = $this.position().left;
-            var	position_top = $this.position().top;
+            var position_left = $this.position().left;
+            var position_top = $this.position().top;
 
-            $this.after('<div class="fieldError fieldError_'+ field_name +'" style="top: '+ position_top +'px; left: '+ position_left +'px;">'+ desc +'</div>');
+            $this.after('<div class="fieldError fieldError_' + field_name + '" style="top: ' + position_top + 'px; left: ' + position_left + 'px;">' + desc + '</div>');
 
-            $this.focus(function(){
-                $('.fieldError_'+ field_name).remove();
+            $this.focus(function () {
+                $('.fieldError_' + field_name).remove();
                 $this.off('focus');
             });
         }
     }
 
 </script>
-<div registration>
+
 <table>
     <tr>
         <td>
-            ${message( code: 'login')}:<br/>
-            <g:textField name="login" placeholder="${message( code: 'login.placeholder')}"/><br/>
+            ${message(code: 'login')}:<br/>
+            <g:textField name="login" placeholder="${message(code: 'login.placeholder')}"/><br/>
         </td>
         <td>
-            ${message( code: 'password')}:<br/>
-            <g:textField name="password" type="password" placeholder="${message( code: 'mobile.placeholder')}"/><br/>
+            ${message(code: 'password')}:<br/>
+            <g:textField name="password" type="password" placeholder="${message(code: 'mobile.placeholder')}"/><br/>
 
         </td>
     </tr>
     <tr>
 
         <td>
-            ${message( code: 'firstName')}:<br/>
-            <g:textField name="firstName" placeholder="${message( code: 'firstName.placeholder')}"/><br/>
+            ${message(code: 'firstName')}:<br/>
+            <g:textField name="firstName" placeholder="${message(code: 'firstName.placeholder')}"/><br/>
         </td>
         <td>
-            ${message( code: 'repeatPassword')}:<br/>
-            <g:textField name="repeatPassword" type="password" placeholder="${message( code: 'repeatPassword.placeholder')}"/><br/>
+            ${message(code: 'repeatPassword')}:<br/>
+            <g:textField name="repeatPassword" type="password"
+                         placeholder="${message(code: 'repeatPassword.placeholder')}"/><br/>
         </td>
     </tr>
     <tr>
         <td>
-            ${message( code: 'middleName')}:<br/>
-            <g:textField name="middleName" placeholder="${message( code: 'middleName.placeholder')}"/><br/>
+            ${message(code: 'middleName')}:<br/>
+            <g:textField name="middleName" placeholder="${message(code: 'middleName.placeholder')}"/><br/>
         </td>
         <td>
-            ${message( code: 'mobile')}:<br/>
-            <g:textField name="mobile" placeholder="${message( code: 'mobile.placeholder')}"/><br/>
+            ${message(code: 'mobile')}:<br/>
+            <g:textField name="mobile" placeholder="${message(code: 'mobile.placeholder')}"/><br/>
 
         </td>
     </tr>
     <tr>
         <td>
-            ${message( code: 'lastName')}:<br/>
-            <g:textField name="lastName" placeholder="${message( code: 'lastName.placeholder')}"/><br/>
+            ${message(code: 'lastName')}:<br/>
+            <g:textField name="lastName" placeholder="${message(code: 'lastName.placeholder')}"/><br/>
         </td>
     </td>
         <td>
-            ${message( code: 'mail')}:<br/>
-            <g:textField name="mail" placeholder="${message( code: 'mail.placeholder')}"/><br/>
-
+            ${message(code: 'mail')}:<br/>
+            <g:textField name="mail" placeholder="${message(code: 'mail.placeholder')}"/><br/>
         </td>
     </tr>
-
     <tr>
         <td>
             <input type="button" class="buttonBack" value="${message(code: 'back')}"/>
@@ -99,4 +97,3 @@
     </tr>
 
 </table>
-</div>

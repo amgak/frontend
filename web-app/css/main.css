@@ -594,3 +594,38 @@ a.skip {
 	position: absolute;
 	left: -9999px;
 }
+
+
+.widget {
+    width: 320px;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 20px;
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px rgba(153, 153, 153, 0.7);
+}
+
+.widget-title {
+    text-transform: uppercase;
+    color: #000;
+    height: 60px;
+    width: 320px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 60px 0 70px;
+    border-bottom: 1px solid #CCC;
+}
+
+.generalUserInfo,
+.userContact,
+.companyGeneralInfo {
+    border-top: 5px solid #34495e;
+}
+.generalUserInfo .widget-title,
+.companyGeneralInfo .widget-title {
+    background: url(images/widget/user_info_icon.png) no-repeat 20px center;
+}
