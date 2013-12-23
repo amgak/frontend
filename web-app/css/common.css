@@ -25,3 +25,144 @@
     border-right: 8px solid transparent;
     border-bottom: 8px solid #EB1A22;
 }
+
+
+
+input[type=text]
+{
+    background-color: #fff6f9;
+    border:solid 1px #BFBDBD;
+    color: #1a1a1a;
+    height: 35px;
+    padding-left:10px;
+    width: 280px;
+    box-shadow: 2px 2px 0 #828181 inset;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+input[type=button]
+{
+    background-color: #c50f09;
+    color: #d8d8d8;
+    height: 35px;
+    width: 275px;
+    color: #bbbbbb;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow:-1px 2px #6E6B6A inset;
+}
+
+input[type=button], input[type=text]
+{
+    border: 10;
+    border-radius:5px;
+    font-family: Sansation,Arial;
+}
+
+
+
+
+.head-user {
+    float: right;
+    height: 30px;
+}
+
+.head-user-lang {
+    width: 100px;
+    float: left;
+    overflow: hidden;
+    line-height: 54px;
+    position: relative;
+    cursor: pointer;
+}
+.head-user-lang:hover {
+    color: #c50f09;
+}
+
+.head-user-lang:before {
+
+    content:'';
+    top: 17px;
+    width: 22px;
+    height: 20px;
+    border-radius: 50%;
+}
+.head-user-lang.ru:before {
+    box-shadow: 2px 2px 3px #000;
+    background: url(images/ru.png) no-repeat 0 0;
+}
+.head-user-lang.en:before {
+    box-shadow: 2px 2px 3px #000;
+    background: url(images/en.png) no-repeat 0 0;
+}
+.head-user-lang.ua:before {
+    box-shadow: 2px 2px 3px #000;
+    background: url(images/ua.png) no-repeat 0 0;
+}
+
+.head-user-reg,
+.head-user-enter {
+    float: left;
+    text-align: center;
+    line-height: 54px;
+    height: 100%;
+    font-size: 17px;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+.head-user-reg:before,
+.head-user-enter:before,
+.head-platformLink:before {
+    content:'';
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.head-platformLink {
+    float: left;
+    height: 100%;
+    position: relative;
+
+}
+.head-androidLink {
+    position: absolute;
+    width: 20px;
+    height: 23px;
+    right: 70px;
+    top: 50%;
+    background: url(images/android_icon.png) no-repeat;
+    opacity: 0.5;
+}
+.head-appleLink {
+    position: absolute;
+    width: 19px;
+    height: 23px;
+    right: 35px;
+    top: 50%;
+    background: url(images/apple_icon.png) no-repeat;
+    opacity: 0.5;
+}
+.head-androidLink:hover,
+.head-appleLink:hover {
+    opacity: 1;
+}
+.head-user-link:hover {
+    color: #c50f09;
+    cursor: pointer;
+}
+.head-user-enter {
+    width: 83px;
+}
+.head-user-link {
+    text-decoration: none;
+}
+
+.content{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
