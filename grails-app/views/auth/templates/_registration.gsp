@@ -90,11 +90,11 @@
 
     <tr>
         <td>
-            <input type="button" class="buttonBack" value="Back"/>
+            <input type="button" class="buttonBack" value="${message(code: 'back')}"/>
         </td>
     </td>
         <td>
-            <input type="button" class="buttonReg" value="Sign Up"/>
+            <input type="button" class="buttonReg" value="${message(code: 'registration')}"/>
         </td>
     </tr>
 

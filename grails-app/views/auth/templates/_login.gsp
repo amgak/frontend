@@ -40,13 +40,20 @@
 
 
 <div class="login">
-
-    ${message( code: 'login')}<br/>
-    <g:textField name="login" placeholder="${message( code: 'login.placeholder')}"/><br/>
-
-    ${message( code: 'password')}<br/>
-    <g:textField name="password" type="password" placeholder="${message( code: 'password.placeholder')}"/><br/>
-
-    <input type="button" class="buttonLogin" value="${message( code: 'submit')}"/>
+    <table>
+        <tr>
+            <td>
+                ${message( code: 'login')}:<br/>
+                <g:textField name="login" placeholder="${message( code: 'login.placeholder')}"/><br/>
+            </td>
+            <td>
+                ${message( code: 'password')}:<br/>
+                <g:textField name="password" type="password" placeholder="${message( code: 'password.placeholder')}"/><br/>
+            </td>
+        </tr>
+    </table>
+    <input type="button" class="buttonLogin" value="${message( code: 'signin')}"/>
+    <input type="button" onclick="$('.signin').trigger('click')" value="${message( code: 'new.user')}"/>
+    <input type="button" class="buttonForgotPassword" value="${message( code: 'forgot.password')}"/>
 
 </div>

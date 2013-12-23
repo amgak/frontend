@@ -27,6 +27,9 @@
 }
 
 
+a{
+    color: #ffffff;
+}
 
 input[type=text]
 {
@@ -68,7 +71,7 @@ input[type=button], input[type=text]
 }
 
 .head-user-lang {
-    width: 100px;
+    margin-right: 10px;
     float: left;
     overflow: hidden;
     line-height: 54px;
@@ -76,7 +79,7 @@ input[type=button], input[type=text]
     cursor: pointer;
 }
 .head-user-lang:hover {
-    color: #c50f09;
+    color: #fdf6fb;
 }
 
 .head-user-lang:before {
@@ -103,12 +106,13 @@ input[type=button], input[type=text]
 .head-user-reg,
 .head-user-enter {
     float: left;
-    text-align: center;
+    text-align: left;
     line-height: 54px;
     height: 100%;
-    font-size: 17px;
+    font-size: 12pt;
     -moz-box-sizing: border-box;
     position: relative;
+    padding-right: 10px;
 }
 .head-user-reg:before,
 .head-user-enter:before,
@@ -150,12 +154,16 @@ input[type=button], input[type=text]
     opacity: 1;
 }
 .head-user-link:hover {
-    color: #c50f09;
+    color: #c4c4c5;
     cursor: pointer;
 }
 .head-user-enter {
-    width: 83px;
+    margin-left: 5px;
 }
+.head-user-reg {
+    margin-left: 5px;
+}
+
 .head-user-link {
     text-decoration: none;
 }
@@ -165,4 +173,18 @@ input[type=button], input[type=text]
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+}
+
+header{
+    width: 700px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #c50f09;
+    font-size: 12pt;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px
+    /*-moz-border-radius: 10px 20px 30px 40px;*/
 }
