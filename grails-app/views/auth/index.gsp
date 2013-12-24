@@ -12,6 +12,8 @@
     <title></title>
     <g:javascript library='jquery'/>
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'common.css')}">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'addons.css')}">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'red.css')}">
     <r:layoutResources/>
     <script>
         $(document).on('click', '.signin', function (e) {
@@ -28,13 +30,26 @@
             });
         });
 
+        $(document).on('click', '.goToCabinetButton', function (e) {
+            $.ajax({
+                method: "POST",
+                data: {
+                },
+                url: "${createLink(controller: 'profile', action: "cabinet")}",
+                success: function (res) {
+                    $('.content').html(res)
+                }
+            });
+        });
+
     </script>
 </head>
 
 <body>
 <g:render template="templates/header"/>
-<div class="content">
 
+<div class="content">
+    <input type="button" class="goToCabinetButton" value="${message(code: 'cabinet')}"/>
 </div>
 </body>
 </html>

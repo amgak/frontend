@@ -1,20 +1,20 @@
 .buttonInfo {
     height: 90px;
-    padding: 6px 12px 12px 92px;
+    padding: 12px 12px 12px 92px;
+    margin-left: 6px;
+    margin-top: 6px;
     border-top: 6px solid #FFF;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 5px;
-    display: inline-block;
-    position: relative;
     overflow: hidden;
-    box-shadow: 1px 2px 3px rgba(255, 0, 0, 0.7);
+    box-shadow: 1px 1px 2px 3px rgba(255, 0, 0, 0.7);
 	text-decoration: none;
+    width: 350px;
+    cursor: pointer;
 }
 
 .buttonInfo:after {
     content: '';
-    position: absolute;
     left: 20px;
     top: 50%;
     margin-top: -35px;
@@ -23,7 +23,6 @@
 }
 .buttonInfo:before {
     content: '';
-    position: absolute;
     left: 20px;
     top: 50%;
     margin-top: -35px;
@@ -46,31 +45,28 @@
 }
 
 
-
-
-
 .buttonInfo.cabinet:after {
-    background: url(cabinet.png) no-repeat;
+    background: url(../images/ubi/cabinet.png) no-repeat;
 }
 
 .buttonInfo.request:after {
-    background: url(request.png) no-repeat;
+    background: url(../images/ubi/request.png) no-repeat;
 }
 
 .buttonInfo.office:after {
-    background: url(office.png) no-repeat;
+    background: url(../images/ubi/office.png) no-repeat;
 }
 
 .buttonInfo.connect:after {
-    background: url(connect.png) no-repeat;
+    background: url(../images/ubi/connect.png) no-repeat;
 }
 
 .buttonInfo.discount:after {
-    background: url(discount.png) no-repeat;
+    background: url(../images/ubi/discount.png) no-repeat;
 }
 
 .buttonInfo.sos:after {
-    background: url(sos.png) no-repeat;
+    background: url(../images/ubi/sos.png) no-repeat;
 }
 
 
@@ -83,767 +79,34 @@
 
 
 
-
-
-
 .buttonInfo.info:after {
-    background: url(info.png) no-repeat;
+    background: url(../images/ubi/info.png) no-repeat;
 }
 
 .buttonInfo.contract:after {
-    background: url(contract.png) no-repeat;
+    background: url(../images/ubi/contract.png) no-repeat;
 }
 
 .buttonInfo.car:after {
-    background: url(car.png) no-repeat;
+    background: url(../images/ubi/car.png) no-repeat;
 }
 
 .buttonInfo.estate:after {
-    background: url(estate.png) no-repeat;
+    background: url(../images/ubi/estate.png) no-repeat;
 }
 
 .buttonInfo.sos_kasko:after {
-    background: url(sos_kasko.png) no-repeat;
+    background: url(../images/ubi/sos_kasko.png) no-repeat;
 }
 
 .buttonInfo.sos_oscv:after {
-    background: url(sos_oscv.png) no-repeat;
+    background: url(../images/ubi/sos_oscv.png) no-repeat;
 }
 
 .buttonInfo.sos_estate:after {
-    background: url(sos_estate.png) no-repeat;
+    background: url(../images/ubi/sos_estate.png) no-repeat;
 }
 
 .buttonInfo.sos_health:after {
-    background: url(sos_health.png) no-repeat;
+    background: url(../images/ubi/sos_health.png) no-repeat;
 }
-
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    background: transparent;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    empty-cells: show;
-    border-color: #CCCCCC;
-}
-
-/* Clearfix
--------------------------------------------------------------*/
-.clearfix:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-
-* html > body .clearfix {
-    display: block;
-    width: 100%;
-}
-
-* html .clearfix {
-    height: 1%;
-}
-
-/* Mis.
--------------------------------------------------------------*/
-.clear, .divider {
-    clear: both !important;
-}
-
-.no-display {
-    display: none !important;
-}
-
-.nowrap, .nobr {
-    white-space: nowrap !important;
-}
-
-.no-border {
-    bottom: 0 !important;
-}
-
-.no-padding {
-    padding: 0 !important
-}
-
-.no-margin {
-    margin: 0 !important;
-}
-
-.normal-weight {
-    font-weight: normal !important;
-}
-
-.auto-width {
-    width: auto;
-}
-
-.first {
-    background: none !important;
-    border: 0 !important;
-}
-
-/*Alignment---*/
-.v-top {
-    vertical-align: top;
-}
-
-.v-middle {
-    vertical-align: middle;
-}
-
-.v-bottom {
-    vertical-align: bottom;
-}
-
-.alignleft {
-    text-align: left;
-}
-
-.aligncenter {
-    text-align: center;
-}
-
-.alignright {
-    text-align: right;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-
-#ja-cssmenu {
-    margin: 0; /* all lists */
-    padding: 0;
-}
-
-#ja-cssmenu ul {
-    margin: 0; /* all lists */
-    padding: 0;
-}
-
-#ja-cssmenu li {
-    float: left;
-    display: block;
-    padding: 0;
-    margin: 0;
-    background: none;
-}
-
-#ja-cssmenu li ul {
-    width: 16.4em;
-    position: absolute; /* second-level lists */
-    z-index: 99;
-    left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
-    height: auto;
-    w\idth: 15.9em;
-}
-
-#ja-cssmenu li ul ul {
-    margin: -2em 0 0 15em; /* third-and-above-level lists */
-}
-
-#ja-cssmenu li li {
-    padding: 0 1em 0 0;
-    margin: 0;
-    width: 14.9em;
-}
-
-#ja-cssmenu ul a {
-    width: 14.8em;
-    w\idth: 10.8em;
-}
-
-#ja-cssmenu li:hover ul ul, #ja-cssmenu li:hover ul ul ul,
-#ja-cssmenu li.sfhover ul ul, #ja-cssmenu li.havechildsfhover ul ul, #ja-cssmenu li.havechild-activesfhover ul ul, #ja-cssmenu li.activesfhover ul ul,
-#ja-cssmenu li.sfhover ul ul ul, #ja-cssmenu li.havechildsfhover ul ul ul, #ja-cssmenu li.havechild-activesfhover ul ul ul, #ja-cssmenu li.activesfhover ul ul ul {
-    left: -999em;
-}
-
-
-/* STYLING THE MENU
------------------------------------*/
-/* 1st level */
-#ja-cssmenu li a {
-    border-right: 1px solid #666666;
-    display: block;
-    text-decoration: none;
-    font-size: 100%;
-    color: #999999;
-    padding: 10px 20px;
-    text-transform: uppercase;
-}
-
-#ja-cssmenu li a:hover,
-#ja-cssmenu li a:active,
-#ja-cssmenu li a:focus {
-    color: #FFFFFF;
-}
-
-#ja-cssmenu li:hover a,
-#ja-cssmenu li.sfhover a,
-#ja-cssmenu li.havechildsfhover a,
-#ja-cssmenu li.havechild-activesfhover a {
-    color: #FFFFFF;
-}
-
-#ja-cssmenu li.active {
-    background: none;
-}
-
-#ja-cssmenu li.active a {
-    background: none;
-    color: #FFFFFF;
-}
-
-#ja-cssmenu li a.active:hover,
-#ja-cssmenu li a.active:active,
-#ja-cssmenu li a.active:focus {
-    color: #FFFFFF;
-}
-
-/* 2nd level and above */
-#ja-cssmenu li ul {
-    border: 1px solid #202020;
-    background: url(../../images/trans-bg.png);
-}
-
-#ja-cssmenu li ul ul {
-    border: 1px solid #202020;
-}
-
-#ja-cssmenu li ul li {
-    border-bottom: 1px solid #202020;
-    border-right: none;
-    background: none;
-}
-
-#ja-cssmenu li ul a {
-    border-right: none;
-    margin: 0;
-    padding: 5px 5x;
-    background: none !important;
-    text-transform: none;
-    font-weight: normal;
-    font-size: 92%;
-    white-space: nowrap;
-    color: #CCCCCC !important;
-}
-
-#ja-cssmenu li.havesubchild,
-#ja-cssmenu li.havesubchild-active {
-    background: url(img/arrow-1.gif) no-repeat 95% 50%;
-}
-
-#ja-cssmenu li ul a:hover,
-#ja-cssmenu li ul a:active,
-#ja-cssmenu li ul a:focus,
-#ja-cssmenu ul li:hover,
-#ja-cssmenu ul li.sfhover,
-#ja-cssmenu ul li.havesubchildsfhover,
-#ja-cssmenu ul li.havesubchild-activesfhover,
-#ja-cssmenu ul ul li:hover,
-#ja-cssmenu ul ul li.sfhover,
-#ja-cssmenu ul ul li.havesubchildsfhover,
-#ja-cssmenu ul ul li.havesubchild-activesfhover {
-    background: #202020;
-    color: #FFFFFF !important;
-}
-
-#ja-cssmenu ul li a.active {
-    background: none !important;
-    color: #FFFFFF !important;
-    font-weight: bold !important;
-}
-
-
-body {
-
-    background: #FFFFFF;
-
-    color: #0000000;
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    line-height: 1.8;
-
-}
-
-body#bd {
-
-    background: url(../images/bg.gif) repeat-x top left;
-
-    color: #666666;
-
-}
-
-body.contentpane {
-
-    color: #000000;
-
-    font-size: 12pt;
-
-    line-height: 1.3em;
-
-    margin: 1em 2em;
-
-    width: auto; /* Printable Page */
-
-}
-
-
-
-ul {
-
-    list-style: none;
-
-}
-
-
-
-
-
-a.readon {
-
-    background: #333333;
-
-    color: #CCCCCC;
-
-    text-align: center;
-
-    text-decoration: none;
-
-    padding: 2px 5px;
-
-}
-
-a.readon:hover, a.readon:focus, a.readon:active {
-
-    background: #D91F2D;
-
-    color: #FFFFFF;
-
-    text-decoration: none;
-
-}
-
-table.contentpaneopen td, table.contentpane td {
-
-}
-
-table.contentpaneopen, table.contentpane, table.blog {
-
-    width: 100%;
-
-}
-
-.moduletable {
-
-    padding: 0;
-
-}
-
-div.blog_more {
-
-    padding-top: 15px;
-
-}
-
-ul.pagination {
-
-    margin: 0;
-
-    padding: 0;
-
-}
-
-ul.pagination li {
-
-    background: none;
-
-    display: inline;
-
-    margin: 0;
-
-    padding: 0;
-
-}
-
-ul.pagination li span {
-
-    padding: 2px 5px;
-
-}
-
-ul.pagination a {
-
-    padding: 2px 3px;
-
-    text-decoration: none;
-
-}
-
-ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
-
-}
-
-.pagenavbar {
-
-    background: url(../images/icon-pages.gif) no-repeat center left;
-
-    font-weight: bold;
-
-    padding-left: 14px;
-
-}
-
-.pagenavcounter {
-
-    background: url(../images/icon-pages.gif) no-repeat 0 11px;
-
-    font-weight: bold;
-
-    padding: 8px 14px 0 14px;
-
-}
-
-.sectiontableheader {
-
-    color: #FFFFFF;
-
-    font-weight: bold;
-
-    padding: 8px 5px;
-
-}
-
-.sectiontableheader a {
-
-    color: #FFFFFF;
-
-}
-
-tr.sectiontableentry1 td {
-
-    padding: 8px 5px;
-
-}
-
-tr.sectiontableentry2 td {
-
-    padding: 8px 5px;
-
-}
-
-tr.sectiontableentry1:hover td,
-tr.sectiontableentry2:hover td {
-
-}
-
-.smalldark {
-
-    text-align: left;
-
-}
-
-div.syndicate div {
-
-    text-align: center;
-
-}
-
-.pollstableborder tr.sectiontableentry1 td,
-.pollstableborder tr.sectiontableentry2 td {
-
-    background: none;
-
-}
-
-/* META
-
---------------------------------------------------------- */
-
-.createdate {
-
-    color: #999999;
-
-}
-
-.modifydate {
-
-    color: #999999;
-
-    display: block;
-
-    float: left;
-
-    margin-top: 10px;
-
-    width: 100%;
-
-}
-
-.buttonheading {
-
-}
-
-.buttonheading img {
-
-    border: 0;
-
-    float: right;
-
-    margin: 7px 5px 0 0;
-
-}
-
-/* MAIN LAYOUT
-
---------------------------------------------------------- */
-
-.wrap {
-
-    clear: both;
-
-    width: 100%;
-
-}
-
-.main {
-
-    margin: 0 auto;
-
-    width: 960px;
-
-}
-
-/* PRIMARY COLUMN
-
---------------------------------------------------------- */
-
-#ja-content {
-
-    display: inline;
-
-    float: left;
-	width: 745px;
-
-}
-
-
-
-#ja-col1 {
-
-    display: inline;
-
-    float: left;
-
-    padding-top: 15px;
-
-    width: 215px;
-
-    line-height: 1.5;
-
-}
-
-
-/* HEADER
-
---------------------------------------------------------- */
-
-#ja-header {
-
-    height: 100px;
-
-    z-index: 999;
-
-}
-
-#ja-header .main {
-
-    height: 100px;
-
-    position: relative;
-
-}
-
-h1.logo, h1.logo-text {
-
-    font-size: 300%;
-
-    left: 0;
-
-    letter-spacing: 1px;
-
-    margin: 0;
-
-    padding: 0;
-
-    position: absolute;
-
-    top: 15px;
-
-}
-
-h1.logo a {
-
-    background: url(../images/logo.png) no-repeat;
-
-    display: block;
-
-    height: 60px;
-
-    width: 295px;
-
-}
-
-h1.logo a:hover, h1.logo a:active, h1.logo a:focus {
-
-}
-
-* html h1.logo a:hover {
-
-    background: none;
-
-    cursor: pointer;
-
-}
-
-h1.logo a span {
-
-    position: absolute;
-
-    top: -1000px;
-
-}
-
-h1.logo-text a {
-
-    color: #FFFFFF;
-
-    text-decoration: none;
-
-}
-
-h1.logo-text a:hover, logo-text a:active, logo-text a:focus {
-
-    background: none;
-
-    color: #FFFFFF;
-
-}
-
-
-
-ul.menu li a {
-
-    display: block;
-
-    outline: none;
-
-    padding: 5px 5px 5px 20px;
-
-    text-decoration: none;
-
-    border-top: 1px solid #E5E5E5;
-
-    background: url(../images/arrow.png) no-repeat 12px center;
-
-    color: #666666;
-
-}
-
-ul.menu li a:hover,
-ul.menu li a:active,
-ul.menu li a:focus {
-
-    color: #666666;
-
-    background: #F6F6F6 url(../images/arrow.png) no-repeat 12px center;
-
-    text-decoration: none;
-
-}
-
-ul.menu li.active a {
-
-    font-weight: bold;
-
-    background: #E5E5E5 url(../images/arrow.png) no-repeat 12px center;
-
-}
-
-ul.menu li ul {
-
-    list-style: none;
-
-    margin: 0;
-
-    padding: 0;
-
-}
-
-ul.menu li li {
-
-    border: none;
-
-}
-
-ul.menu li li a {
-
-    background: #FFFFFF url(../images/bullet.gif) no-repeat 20px center !important;
-
-    border: none;
-
-    font-weight: normal !important;
-
-    padding-left: 30px !important;
-
-    width: 75%; /*need for ie6*/
-
-}
-
-ul.menu li li a:hover,
-ul.menu li li a:active,
-ul.menu li li a:focus {
-
-    background: none;
-
-    color: #666666;
-
-}
-
-/* SPOTLIGHT
-
---------------------------------------------------------- */
-
-
-/* MISCELLANOUS
-
------------------------------------------------------------ */
-
-

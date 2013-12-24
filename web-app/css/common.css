@@ -27,10 +27,6 @@
 }
 
 
-a{
-    color: #ffffff;
-}
-
 input[type=text]
 {
     background-color: #fff6f9;
@@ -42,27 +38,19 @@ input[type=text]
     box-shadow: 2px 2px 0 #828181 inset;
     margin-bottom: 5px;
     margin-right: 5px;
+    border-radius:5px;
 }
 input[type=button]
 {
+    border-radius:5px;
     background-color: #c50f09;
     color: #d8d8d8;
     height: 35px;
     width: 275px;
-    color: #bbbbbb;
     margin-left: 5px;
     margin-top: 5px;
     box-shadow:-1px 2px #6E6B6A inset;
 }
-
-input[type=button], input[type=text]
-{
-    border: 10;
-    border-radius:5px;
-    font-family: Sansation,Arial;
-}
-
-
 
 
 .head-user {
@@ -90,18 +78,7 @@ input[type=button], input[type=text]
     height: 20px;
     border-radius: 50%;
 }
-.head-user-lang.ru:before {
-    box-shadow: 2px 2px 3px #000;
-    background: url(images/ru.png) no-repeat 0 0;
-}
-.head-user-lang.en:before {
-    box-shadow: 2px 2px 3px #000;
-    background: url(images/en.png) no-repeat 0 0;
-}
-.head-user-lang.ua:before {
-    box-shadow: 2px 2px 3px #000;
-    background: url(images/ua.png) no-repeat 0 0;
-}
+
 
 .head-user-reg,
 .head-user-enter {
@@ -169,22 +146,14 @@ input[type=button], input[type=text]
 }
 
 .content{
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
+    margin: 10px;
+    position: absolute;
 }
 
 header{
-    width: 700px;
     height: 45px;
     margin-left: auto;
     margin-right: auto;
     background: #c50f09;
     font-size: 12pt;
-    -webkit-border-top-left-radius: 0px;
-    -webkit-border-top-right-radius: 0px;
-    -webkit-border-bottom-right-radius: 20px;
-    -webkit-border-bottom-left-radius: 20px
-    /*-moz-border-radius: 10px 20px 30px 40px;*/
 }

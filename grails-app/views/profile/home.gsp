@@ -10,6 +10,11 @@
 <html>
 <head>
     <title></title>
+    <g:javascript library='jquery'/>
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'common.css')}">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'addons.css')}">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'red.css')}">
+    <r:layoutResources/>
 </head>
 
 <body>
@@ -32,7 +37,7 @@
 <div id="ja-container-fr" class="wrap">
     <div class="main clearfix">
         <!-- Left COLUMN -->
-        <div id="ja-col1">
+        <div id="column">
             <div class="ja-innerpad">
                 <div class="moduletable_menu hilite1" id="Mod1">
                     <h3 class="clearfix">ubi concordia - ibi victoria</h3>
@@ -60,37 +65,37 @@
         <!-- CONTENT -->
         <div id="ja-content">
             <div class="payPreview-buttonsOverlay mainPageActions">
-                <div class="buttonInfo cabinet" href="#" title="">
+                <div class="buttonInfo cabinet"  title="">
                     <span class="buttonInfo-title"><g:message code="cabinet.title"/></span>
 
                     <p class="buttonInfo-desc"><g:message code="cabinet.desc"/></p>
                 </div>
 
-                <div class="buttonInfo request" href="#" title="">
+                <div class="buttonInfo request"  title="">
                     <span class="buttonInfo-title"><g:message code="request.title"/></span>
 
                     <p class="buttonInfo-desc"><g:message code="request.desc"/></p>
                 </div>
 
-                <div class="buttonInfo office" href="#" title="">
+                <div class="buttonInfo office"  title="">
                     <span class="buttonInfo-title"><g:message code="sos.title"/></span>
 
                     <p class="buttonInfo-desc"><g:message code="sos.desc"/></p>
                 </div>
 
-                <div class="buttonInfo connect" href="#" title="">
+                <div class="buttonInfo connect"  title="">
                     <span class="buttonInfo-title"><g:message code="connect.title"/></span>
 
                     <p class="buttonInfo-desc"><g:message code="connect.desc"/></p>
                 </div>
 
-                <div class="buttonInfo discount" href="#" title="">
+                <div class="buttonInfo discount"  title="">
                     <span class="buttonInfo-title"><g:message code="office.title"/></span>
 
                     <p class="buttonInfo-desc"><g:message code="office.desc"/></p>
                 </div>
 
-                <div class="buttonInfo sos" href="#" title="">
+                <div class="buttonInfo sos"  title="">
                     <span class="buttonInfo-title"><g:message code="discount.title"/></span>
 
                     <p class="buttonInfo-desc"><g:message code="discount.desc"/></p>

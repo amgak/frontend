@@ -1,0 +1,54 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	background: #FFF;
+	}
+
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	}
+
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+img {
+	border: none;
+	}
+
+#menu {
+	width: 200px;
+	margin-top: 5px;
+    cursor: pointer;
+    float: left;
+}
+	
+
+#menu li {
+    height: 22px;
+    text-decoration: none;
+    color: #666;
+	display: block;
+	background:  url(images/menu.gif);
+	padding: 10px 0 0 35px;
+	}
+
+#menu li:hover {
+	color: #000;
+	background:  url(images/menu.gif) 0 -32px;
+	padding: 10px 0 0 35px;
+	}
