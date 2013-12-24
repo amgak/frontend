@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="apache-log4j-1.2.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/apache-log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/InsuCli.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -30,26 +30,15 @@
             });
         });
 
-        $(document).on('click', '.goToCabinetButton', function (e) {
-            $.ajax({
-                method: "POST",
-                data: {
-                },
-                url: "${createLink(controller: 'profile', action: "cabinet")}",
-                success: function (res) {
-                    $('.content').html(res)
-                }
-            });
-        });
 
     </script>
 </head>
 
 <body>
 <g:render template="templates/header"/>
+<g:render template="../profile/templates/menu"/>
 
 <div class="content">
-    <input type="button" class="goToCabinetButton" value="${message(code: 'cabinet')}"/>
 </div>
 </body>
 </html>

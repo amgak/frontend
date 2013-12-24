@@ -43,7 +43,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="grails-2.2.2" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (myFrontend)">
         <CLASSES>
@@ -56,6 +55,8 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="myFrontend-grailsPlugins" />
+    <orderEntry type="library" name="apache-log4j-1.2.16" level="project" />
+    <orderEntry type="library" name="grails-2.2.2" level="application" />
   </component>
 </module>
 

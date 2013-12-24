@@ -1,5 +1,7 @@
 package myfrontend
 
+import com.ubi.insuco.cli.RequestService
+import com.ubi.insuco.cli.UserService
 import grails.converters.JSON
 import org.springframework.context.i18n.LocaleContextHolder
 import org.springframework.web.servlet.support.RequestContextUtils
@@ -49,6 +51,12 @@ class AuthController {
 
     def register(RegistrationCommand rC) {
         if(rC.validate()){
+            RequestService reqServ = new RequestService("http://82.193.109.61/ubi");
+            boolean res = new UserService(reqServ).register(rC.login, rC.mail, rC.password);
+            if (res)
+                System.out.println("Registered successfully");
+            else
+                System.out.println("Unable to register");
             render "OK"
         } else {
             render([errors: rC.errors.allErrors ] as JSON)

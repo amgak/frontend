@@ -3,6 +3,7 @@
         $.ajax({
             method: "POST",
             data: {
+                login: $('input[name=login]').val(),
                 firstName: $('input[name=firstName]').val(),
                 middleName: $('input[name=middleName]').val(),
                 lastName: $('input[name=lastName]').val(),

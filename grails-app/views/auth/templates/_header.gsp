@@ -40,18 +40,9 @@
             <a class="head-androidLink" href="http://android.com/" title="" target="_blank"></a>
             <a class="head-appleLink" href="http://apple.com/" title="" target="_blank"></a>
         </div>
-
-        <g:link controller="auth" action="lang" params="[lang: 'ru', targetUri: targetUri]"><div
-                class="head-user-lang ru"><g:message code="ru"/></div></g:link>
-        <g:link controller="auth" action="lang" params="[lang: 'ua', targetUri: targetUri]"><div
-                class="head-user-lang ua"><g:message code="ua"/></div></g:link>
-        <g:link controller="auth" action="lang" params="[lang: 'en', targetUri: targetUri]"><div
-                class="head-user-lang en"><g:message code="en"/></div></g:link>
-
         <div class="head-user-enter">
             <div class="head-user-link signin" title=""><g:message code="signin"/></div>
         </div>
-
         <div class="head-user-reg">
             <div class="head-user-link signup" title=""><g:message code="registration"/></div>
         </div>

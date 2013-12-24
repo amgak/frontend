@@ -52,6 +52,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="apache-log4j-1.2.16" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="grails-2.2.2" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (myFrontend-grailsPlugins)">

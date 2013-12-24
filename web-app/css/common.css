@@ -58,28 +58,6 @@ input[type=button]
     height: 30px;
 }
 
-.head-user-lang {
-    margin-right: 10px;
-    float: left;
-    overflow: hidden;
-    line-height: 54px;
-    position: relative;
-    cursor: pointer;
-}
-.head-user-lang:hover {
-    color: #fdf6fb;
-}
-
-.head-user-lang:before {
-
-    content:'';
-    top: 17px;
-    width: 22px;
-    height: 20px;
-    border-radius: 50%;
-}
-
-
 .head-user-reg,
 .head-user-enter {
     float: left;
